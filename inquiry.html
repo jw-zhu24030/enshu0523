@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>問い合わせ</title>
+</head>
+<body>
+    <form action="inquiry.php" method="post">
+    <div>名前：　　　　　<input type="text" name="name" value=""></div>
+    <div>メールアドレス：<input type="text" name="mail" value=""></div>
+    <div>問い合わせ内容<br>
+    <textarea name="text" id="" cols="40" rows="10"></textarea></div>
+    <input type="submit" value="送信">
+    </form>
+    <input type="button" value="前画面に戻る" onclick="history.back()">
+</body>
+</html>

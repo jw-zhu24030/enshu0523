@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ライブを探す</title>
+</head>
+<body>
+    <!-- <form action="lottery.php" method="get"> -->
+        <section>
+            <a href="apply.php">一覧より確認する</a>
+        </section>
+        <p>-------------------------------------------</p>
+        <section>
+            <h4>番号またはキーワードより探す</h4>
+            <input type="text" name="inputsearch" value=""><br>
+            <input type="radio" id="no" name="radiosearch">番号
+            <input type="radio" id="name" name="radiosearch">公演名
+            <input type="radio" id="artist" name="radiosearch">アーティスト名<br>
+            <input type="submit" value="検索" >
+        </section>
+        <p>-------------------------------------------</p>
+        <section>
+            <h4>フィルターより探す</h4>
+            日時<input type="date" name="date" id="date" value=""><br>
+            場所<input type="checkbox" name="check[]" value="東京都">東京都
+            <input type="checkbox" name="check[]" value="神奈川">神奈川<br>
+            <input type="submit" value="検索" >
+        </section>
+    <!-- </form> -->
+    <input type="button" value="前画面に戻る" onclick="history.back()">
+</body>
+</html>
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ログイン</title>
+</head>
+<body>
+    <section>
+        <h3>ログイン</h3>
+        <form action="login.php" method="post">
+            <p>
+                名前：　　　<input type="text" name = "name" value="">
+            </p>
+            <p>
+                パスワード：<input type="password" name = "pass" value="">
+            </p>
+            <p>
+                <input type="submit" name="submit1" value="ログイン">
+            </p>
+        </form>
+    </section>
+    <!-- <section>
+        <h3> 管理者モード切替</h3>
+    
+        <form action="mode.php" method="post">
+            認証コード：<input type="password" name = "pass2" value=""><br>
+            <input type="submit" value="管理者としてログイン">
+        </form>
+    </section>
+     -->
+    <input type="button" value="前画面に戻る" onclick="history.back()">
+    
+</body>
+</html>

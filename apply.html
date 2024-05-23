@@ -1,0 +1,33 @@
+<!doctype html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>公演一覧</title>
+            <style>
+                table{border-collapse:collapse;}
+                th,td{border:1px #000 solid;}
+                th{background-color:#60CDB8;}
+            </style>
+        </head>
+        <body>
+            <section>
+                <h3> 公演一覧</h3>
+                    <table>
+                        <tr>
+                            <th>番号</th>
+                            <th>公演名</th>
+                            <th>アーティスト</th>
+                            <th>場所</th>
+                            <th>日付</th>
+                            <th>時間</th>
+                        </tr>
+                        !block!
+                    
+                    </table>
+            </section>
+            <section>
+                <input type="button" value="前画面に戻る" onclick="history.back()">
+            </section>
+            
+        </body>
+    </html>
